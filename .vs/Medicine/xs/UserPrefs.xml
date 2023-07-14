@@ -2,19 +2,41 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/DependencyInjections/DependencyInjectionForMediator.cs">
+    <Files>
+      <File FileName="Program.cs" Line="8" Column="35" />
+      <File FileName="Entities/Medicine.cs" Line="4" Column="23" />
+      <File FileName="appsettings.json" Line="13" Column="1" />
+      <File FileName="Persistence/EntityTypeConfigurations/MedicineEntityTypeConfiguration.cs" Line="22" Column="2" />
+      <File FileName="Abstractions/IApplicationDbContext.cs" Line="7" Column="3" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="23" Column="1" />
+      <File FileName="Data/DependencyInjections/DependencyInjectionForDbContext.cs" Line="16" Column="20" />
+      <File FileName="Data/DependencyInjections/DependencyInjectionForMediator.cs" Line="1" Column="14" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Medicine" expanded="True" selected="True">
-            <Node name="Medicine.WebApi" expanded="True" />
+          <Node name="Medicine" expanded="True">
+            <Node name="Medicine.WebApi" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Abstractions" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="DependencyInjections" expanded="True">
+                  <Node name="DependencyInjectionForMediator.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Entities" expanded="True" />
+              <Node name="Persistence" expanded="True">
+                <Node name="EntityTypeConfigurations" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Medicine.WebApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
