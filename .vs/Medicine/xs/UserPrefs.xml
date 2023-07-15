@@ -1,32 +1,53 @@
 ﻿<Properties StartupConfiguration="{8485AD28-89C1-4323-9908-8412A94658AA}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Medicine.WebApi PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MedicineController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UseCases/Medicine/Queries/GetAllMedicinesQuery.cs">
     <Files>
-      <File FileName="Program.cs" />
-      <File FileName="Entities/Medicine.cs" />
-      <File FileName="appsettings.json" />
+      <File FileName="Entities/Medicine.cs" Line="1" Column="1" />
+      <File FileName="appsettings.json" Line="1" Column="1" />
       <File FileName="Persistence/EntityTypeConfigurations/MedicineEntityTypeConfiguration.cs" />
-      <File FileName="Abstractions/IApplicationDbContext.cs" />
       <File FileName="Data/DependencyInjections/DependencyInjectionForDbContext.cs" />
-      <File FileName="Data/DependencyInjections/DependencyInjectionForMediator.cs" Line="11" Column="1" />
-      <File FileName="Controllers/Medicine.cs" Line="24" Column="49" />
+      <File FileName="Data/DependencyInjections/DependencyInjectionForMediator.cs" />
+      <File FileName="Abstractions/ICommand.cs" Line="1" Column="1" />
+      <File FileName="Abstractions/ICommandHandler.cs" Line="1" Column="1" />
+      <File FileName="Abstractions/IQuery.cs" Line="1" Column="1" />
+      <File FileName="Exceptions/MedicineNotFoundException.cs" Line="1" Column="1" />
+      <File FileName="UseCases/Medicine/Commands/CreateMedicineCommand.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="19" Column="8" />
+      <File FileName="Controllers/AdminController.cs" Line="33" Column="39" />
+      <File FileName="Controllers/MedicineController.cs" Line="47" Column="64" />
+      <File FileName="UseCases/User/Queries/GetByNameMedicineQuery.cs" Line="42" Column="1" />
+      <File FileName="UseCases/User/Queries/GetAllMedicineByStructureQuery.cs" Line="33" Column="59" />
+      <File FileName="UseCases/Medicine/Queries/GetAllMedicinesQuery.cs" Line="33" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Medicine" expanded="True">
             <Node name="Medicine.WebApi" expanded="True">
+              <Node name="Abstractions" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="UseCases" expanded="True">
+                <Node name="Medicine" expanded="True">
+                  <Node name="Commands" expanded="True" />
+                  <Node name="Queries" expanded="True">
+                    <Node name="GetAllMedicinesQuery.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="User" expanded="True">
+                  <Node name="Queries" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>

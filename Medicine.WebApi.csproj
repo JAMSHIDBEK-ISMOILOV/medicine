@@ -37,6 +37,8 @@
     <None Remove="Exceptions\" />
     <None Remove="UseCases\Medicine\Queries\" />
     <None Remove="DTOs\" />
+    <None Remove="UseCases\User\" />
+    <None Remove="UseCases\User\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -53,5 +55,7 @@
     <Folder Include="Exceptions\" />
     <Folder Include="UseCases\Medicine\Queries\" />
     <Folder Include="DTOs\" />
+    <Folder Include="UseCases\User\" />
+    <Folder Include="UseCases\User\Queries\" />
   </ItemGroup>
 </Project>
