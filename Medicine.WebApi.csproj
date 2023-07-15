@@ -31,6 +31,12 @@
     <None Remove="Data\" />
     <None Remove="Data\DependencyInjections\" />
     <None Remove="Persistence\Migrations\" />
+    <None Remove="UseCases\" />
+    <None Remove="UseCases\Medicine\" />
+    <None Remove="UseCases\Medicine\Commands\" />
+    <None Remove="Exceptions\" />
+    <None Remove="UseCases\Medicine\Queries\" />
+    <None Remove="DTOs\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -41,5 +47,11 @@
     <Folder Include="Data\" />
     <Folder Include="Data\DependencyInjections\" />
     <Folder Include="Persistence\Migrations\" />
+    <Folder Include="UseCases\" />
+    <Folder Include="UseCases\Medicine\" />
+    <Folder Include="UseCases\Medicine\Commands\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="UseCases\Medicine\Queries\" />
+    <Folder Include="DTOs\" />
   </ItemGroup>
 </Project>
