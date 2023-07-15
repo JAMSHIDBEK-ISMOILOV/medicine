@@ -1,19 +1,33 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Medicine.WebApi.Data.DependencyInjections;
+using Microsoft.OpenApi.Models;
 
-// Add services to the container.
+var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication();
+
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("V1", new OpenApiInfo()
+    {
+        Version = "V1",
+        Title = "Medicine",
+        Description = "Based on Medicine system"
+    });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/V1/swagger.json", "Medicine API");
+    });
 }
 
 app.UseHttpsRedirection();
